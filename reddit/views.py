@@ -55,3 +55,8 @@ def output(request):
         test=tfidf.transform(test.iloc[:,0])
         pred=numdict[model.predict(test)[0]]
     return render(request,'index.html',{'flair':pred})
+
+
+def analytics(request):
+
+    return render(request,'analytics.html')
