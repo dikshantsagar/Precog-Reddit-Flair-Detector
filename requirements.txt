@@ -1,6 +1,6 @@
 requests
 praw
-pickle
+pickle-mixin
 pandas
 numpy
 django
