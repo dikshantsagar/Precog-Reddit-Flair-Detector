@@ -1,0 +1,6 @@
+requests
+praw
+pickle
+pandas
+numpy
+django
