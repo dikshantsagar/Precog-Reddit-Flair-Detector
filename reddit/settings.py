@@ -121,3 +121,4 @@ PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = 'static'
 STATICFILES_DIRS = [("static", 'static')]
 STATIC_ROOT='static'
+os.makedirs(STATIC_ROOT, exist_ok=True)
