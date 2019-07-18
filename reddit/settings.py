@@ -119,5 +119,5 @@ USE_TZ = True
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = os.path.join('static')
-STATICFILES_DIRS = [("static",os.path.join(PROJECT_ROOT, 'reddit', 'static'))]
+STATICFILES_DIRS = [("static",os.path.join(PROJECT_DIR, 'reddit', 'static'))]
 STATIC_ROOT='static'
