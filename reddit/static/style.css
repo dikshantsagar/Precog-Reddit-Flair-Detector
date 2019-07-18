@@ -7,6 +7,13 @@
     text-align: center;
     margin-top: 20vh;
 }
+.container2{
+    display: inline-block;
+    text-align: center;
+    margin-top: 20vh;
+    height: 60vh;
+    width: 80vw;
+}
 
 body{
     text-align: center;
