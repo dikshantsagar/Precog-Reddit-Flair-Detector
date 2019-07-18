@@ -4,3 +4,4 @@ pickle-mixin
 pandas
 numpy
 django
+gunicorn
