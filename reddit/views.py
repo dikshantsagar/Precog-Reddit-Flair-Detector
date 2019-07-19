@@ -5,6 +5,7 @@ import praw as pr
 from praw.models import MoreComments
 import pickle as pk
 import pandas as pd
+from django.http import JsonResponse
 
 
 
@@ -59,4 +60,19 @@ def output(request):
 
 def analytics(request):
 
+
     return render(request,'analytics.html')
+
+
+
+
+def getdata(request):
+    file3=open('analytics.obj','rb')
+    an=pk.load(file3)
+    upvote=an[0]
+    comment=an[1]
+    data={
+        'upvote':upvote,
+        'comment':comment
+    }
+    return JsonResponse(data)
