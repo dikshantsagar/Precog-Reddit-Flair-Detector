@@ -62,7 +62,7 @@ Reddit Flair Detector
  
  ## Final Deploying 
   
-  The WebApp was deployed on Heroku with a python buildpack a great easy to use platform.\
+  The WebApp was deployed on Heroku with a python buildpack a great easy to use platform.
   
  
  # Directory Structure
