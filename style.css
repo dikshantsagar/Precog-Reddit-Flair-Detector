@@ -1,0 +1,77 @@
+.header{
+    color: whitesmoke;
+}
+
+.container{
+    display: inline-block;
+    text-align: center;
+    margin-top: 20vh;
+}
+.container2{
+    display: inline-block;
+    text-align: center;
+    margin-top: 20vh;
+    height: 60vh;
+    width: 80vw;
+}
+
+body{
+    text-align: center;
+    color: whitesmoke;
+    background: url("bg.jpg");
+    background-repeat: no-repeat;
+
+}
+
+.submit{
+    background-color: rgb(255, 115, 0);
+}
+
+.form-control:focus {
+    border-color: rgb(255, 115, 0);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 5px rgb(255, 115, 0);;
+  }
+
+.footer{
+    position: fixed;
+    bottom: 2vh;
+    left: 40vw;
+}
+
+@media (max-width:500px){
+   .container{
+       height: 50vh;
+   }
+
+}
+
+
+.Politics{
+    background-color: #ddbd40;
+    color: black;
+}
+
+.Non-Political{
+    background-color: #5093d6;
+    color: black;
+}
+.AskIndia{
+    background-color: #ab494b;
+    color: white;
+}
+.Scheduled{
+    background-color: #cc5289;
+    color: white;
+}
+.Sports{
+    background-color: #f5bada;
+    color: black;
+}
+.Food{
+    background-color: #b92925;
+    color: white;
+}
+.Photography{
+    background-color: #314df6;
+    color: white;
+}
