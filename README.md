@@ -46,7 +46,7 @@ Reddit Flair Detector
  - Neural Network
  
  Better results were achieved by SVM overall as shown in the analysis plot.
- ![alt text]('https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/15.png')
+ ![alt text](https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/15.png?token=AHRBHFTKYZ7XKM4L2CZMEMC5HMYAM)
  
  So final model trained was an SVM. To utilise them in the App two pickle dumps were created one for the TFIDF vectorizer\
  and one for the SVM model.
