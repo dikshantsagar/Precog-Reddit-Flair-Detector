@@ -35,12 +35,25 @@ body{
 .footer{
     position: fixed;
     bottom: 2vh;
-    left: 40vw;
+    left: 41.5vw;
 }
 
 @media (max-width:500px){
    .container{
-       height: 50vh;
+       height: 40vh;
+       margin-top: 10vh;
+       
+   }
+   .container2{
+       margin-top: 10vh;
+   }
+   body{
+    background: url("bgphone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .footer{
+       left: 15vw;
    }
 
 }
