@@ -20,6 +20,7 @@ body{
     color: whitesmoke;
     background: url("bg.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
@@ -37,6 +38,10 @@ body{
     bottom: 2vh;
     left: 41.5vw;
 }
+.mobile{
+    display: none;
+}
+
 
 @media (max-width:500px){
    .container{
@@ -51,12 +56,18 @@ body{
     background: url("bgphone.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
    }
    .footer{
        left: 15vw;
    }
 
+   .mobile{
+       display: contents;
+   }
+
 }
+
 
 
 .Politics{
@@ -87,4 +98,11 @@ body{
 .Photography{
     background-color: #314df6;
     color: white;
+}
+
+
+
+.chartdiv{
+    margin: 8vh 0;
+    padding: 1.5%;
 }
