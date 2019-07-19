@@ -62,5 +62,8 @@ Reddit Flair Detector
  
  # Directory Structure
  - reddit[f] (the WebApp Folder)
- - other App related files
  - notebooks[f] (Jupyter notebooks containing scripts)
+ - static[f] (static files for the App)
+ - templates[f] (django html templates for the App)
+ - requirements.txt (a list of requirements required for heroku deploy)
+ - other App related files (model objects,procfile,.csv format data,.gitignore ,etc)
