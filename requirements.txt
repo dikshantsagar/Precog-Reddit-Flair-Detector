@@ -2,6 +2,8 @@ requests
 praw
 pickle-mixin
 pandas
+scikit-learn
+keras
 numpy
 django
 gunicorn
