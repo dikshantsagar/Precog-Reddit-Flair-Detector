@@ -16,22 +16,21 @@
 </head>
 <body class="bg-light">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <a class="navbar-brand" href="#"><h1 class="fab fa-reddit-alien"></h1></a>
+        <a class="navbar-brand" href={% url 'home'%}><h1 class="fab fa-reddit-alien"></h1></a>
         <a class="navbar-link"><h3 class="header">Redd<b style="color: rgb(255, 115, 0);">i</b>t Flair Detector</h3></a>
     </nav>
     <div class="card bg-dark container">
         <div class="card-header">
             <h4>
-                Enter The Link of the Reddit Post
+                Enter Link of the Reddit Post <i class="fas fa-link"></i>
             </h4>
         </div>
         <div class="card-body">
-           <form class="form-inline" method="POST" action={% url 'script' %}>
+           <form class="form-group" method="POST" action={% url 'script' %}>
                 {% csrf_token %}
-               <input type="text" class="form-control" id="link" name="link" style="width: 90%;margin:1%;">
-               <button class="btn submit" id="submit" type="submit">Predict</button>
+               <input type="text" class="form-control" id="link" name="link" margin:1%;"><br>
+               <button class="btn submit" id="submit" type="submit"><i class="fas fa-project-diagram"></i> Predict</button>
            </form>
-           <button class="btn btn-warning">Brownie Analytics</button><br><br>
            <div class="card-footer" style="text-align: right;">
                 {% if flair %}
                 <h2><span class="badge badge-success {{flair}}">{{flair}}</span></h2>
@@ -40,7 +39,9 @@
            
         </div>
     </div>
-    <script src="{% static "/script.js" %}"></script>
+    <div style="margin-top: 10vh;">
+            <button class="btn btn-warning" onclick="location.href='{% url 'analytics' %}'"><i class="far fa-chart-bar"></i> Analytics</button><br><br>
+    </div>
     <footer>
         <div class="footer">
             <button class="btn btn-outline-dark">Made with <i class="fas fa-bolt"></i> by Dikshant Sagar</button>
