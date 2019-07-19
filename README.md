@@ -55,6 +55,10 @@ Reddit Flair Detector
  
  Clearly Django was the way to go as it works in python it became easy to integrate the ML model\
  into the App
+  ![alt text](https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/11.png?token=AHRBHFS5HLUZBVLSI2ANZ2S5HMYRS)
+   ![alt text](https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/12.png?token=AHRBHFWQ4AN5EM7GATQNNVK5HMYTM)
+    ![alt text](https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/13.png?token=AHRBHFXBMXEDOHF3EJYF47K5HMYUS)
+     ![alt text](https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/14.png?token=AHRBHFVVGZJN6OPQCLNBFNK5HMYV6)
  
  ## Final Deploying 
   
