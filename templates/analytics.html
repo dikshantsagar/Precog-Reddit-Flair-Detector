@@ -13,19 +13,29 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="{% static "/style.css" %}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+    <script src=''></script>
+    <script src=''></script>
 </head>
 <body class="bg-light">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <a class="navbar-brand" href={% url 'home'%}><h1 class="fab fa-reddit-alien"></h1></a>
         <a class="navbar-link"><h3 class="header">Redd<b style="color: rgb(255, 115, 0);">i</b>t Flair Detector</h3></a>
-    </nav>
-    <div class="card bg-dark container2">
-        
+    </nav><br><br>
+    <h1 style="color: black;"><i class="far fa-chart-bar"></i> Analytics </h1>
+    <p  class="mobile" style="color: black;">*Best viewed in Desktop</p>
+    <div class="chartdiv">
+         <canvas id='chart' height="80%"> </canvas>
     </div>
+    <div class="chartdiv">
+        <canvas id='chart2' height="80%"> </canvas>
+    </div>
+    
     <footer>
         <div class="footer">
             <button class="btn btn-outline-dark">Made with <i class="fas fa-bolt"></i> by Dikshant Sagar</button>
         </div>
     </footer>
+    <script src="{% static "/chartscript.js" %}"></script>
 </body>
 </html>
