@@ -51,6 +51,8 @@ Reddit Flair Detector
  So final model trained was an SVM. To utilise them in the App two pickle dumps were created one for the TFIDF vectorizer\
  and one for the SVM model.
  
+ Model Accuracy Achieved with such less data ~ 0.66
+ 
  ## Creating the WebApp and Integrating 
  
  Clearly Django was the way to go as it works in python it became easy to integrate the ML model\
