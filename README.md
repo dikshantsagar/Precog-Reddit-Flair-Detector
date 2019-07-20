@@ -72,3 +72,14 @@ Reddit Flair Detector
  - templates[f] (django html templates for the App)
  - requirements.txt (a list of requirements required for heroku deploy)
  - other App related files (model objects,procfile,.csv format data,.gitignore ,etc)
+ 
+ # Modules and frameworks Used
+ - Praw
+ - Scikit-Learn
+ - Django
+ - Pandas
+ - Keras
+ - Nltk
+ - matplotlib
+ - Pickle
+ - Chartjs
