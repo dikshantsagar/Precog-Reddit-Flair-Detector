@@ -9,18 +9,7 @@ $.ajax({
     {
         console.log(data);
         dataval=data;
-       
-    },
-    error : function(er){
-        console.log("error",er);
-    }
-
-});
-
-
-window.onload= function()
-{
-    var ctx = document.getElementById('chart');
+        var ctx = document.getElementById('chart');
     var myChart = new Chart(ctx, {
         type: 'line',
         data: {
@@ -41,6 +30,7 @@ window.onload= function()
                 display: true,
                 text :"No. of Upvotes for each Flair"
             },
+            responsive:true,
             scales: {
                 yAxes: [{
                     ticks: {
@@ -73,6 +63,7 @@ window.onload= function()
                 display: true,
                 text : "No of Comments for each Flair"
             },
+            responsive:true,
             scales: {
                 yAxes: [{
                     ticks: {
@@ -82,5 +73,12 @@ window.onload= function()
             }
         }
     });
+       
+    },
+    error : function(er){
+        console.log("error",er);
+    }
 
-}
+});
+
+
