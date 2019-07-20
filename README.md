@@ -1,5 +1,6 @@
 # Precog-Reddit-Flair-Detector
 Reddit Flair Detector
+Heroku App URL - https://redditflairdetector.herokuapp.com
 
  # Work Flow
  
