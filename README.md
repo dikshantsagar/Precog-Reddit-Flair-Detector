@@ -51,7 +51,7 @@ Reddit Flair Detector
  So final model trained was an SVM. To utilise them in the App two pickle dumps were created one for the TFIDF vectorizer\
  and one for the SVM model.
  
- Model Accuracy Achieved with such less data ~ 0.66
+ Model Accuracy Achieved with such less data ~ <b>0.66</b>
  
  ## Creating the WebApp and Integrating 
  
