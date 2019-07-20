@@ -68,6 +68,7 @@ Reddit Flair Detector
   
  
  # Directory Structure
+ - MongoDB Collection ( contains mongodb collection export file )
  - reddit[f] (the WebApp Folder)
  - notebooks[f] (Jupyter notebooks containing scripts)
  - static[f] (static files for the App)
