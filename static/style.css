@@ -36,7 +36,7 @@ body{
 .footer{
     position: fixed;
     bottom: 2vh;
-    left: 41.5vw;
+    left: 2vh;
 }
 .mobile{
     display: none;
@@ -57,9 +57,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-   }
-   .footer{
-       left: 15vw;
    }
 
    .mobile{
