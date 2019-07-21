@@ -54,9 +54,6 @@ Heroku App URL - https://redditflairdetector.herokuapp.com
  
  Model Accuracy Achieved with such less data ~ <b>0.66</b>
  
- ## Confusion Matrix for SVM on train and test
- 
- ![alt text](https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/16.png?token=AHRBHFV4WSXRM7VAG4PQRR25HVR2Y)
  
  ## F1 Score for SVM on Train and Test
  
