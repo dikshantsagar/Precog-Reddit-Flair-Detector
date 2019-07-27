@@ -47,7 +47,7 @@ Heroku App URL - https://redditflairdetector.herokuapp.com
  - Neural Network
  
  Better results were achieved by SVM overall as shown in the analysis plot.
- ![alt text](https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/15.png?token=AHRBHFTKYZ7XKM4L2CZMEMC5HMYAM)
+ ![alt text](https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/15.png?token=AHRBHFVGX5UPSSYGPOVWVLK5IUO7I)
  
  So final model trained was an SVM. To utilise them in the App two pickle dumps were created one for the TFIDF vectorizer\
  and one for the SVM model.
@@ -63,10 +63,10 @@ Heroku App URL - https://redditflairdetector.herokuapp.com
  
  Clearly Django was the way to go as it works in python it became easy to integrate the ML model\
  into the App
-  ![alt text](https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/11.png?token=AHRBHFS5HLUZBVLSI2ANZ2S5HMYRS)
-   ![alt text](https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/12.png?token=AHRBHFWQ4AN5EM7GATQNNVK5HMYTM)
-    ![alt text](https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/13.png?token=AHRBHFXBMXEDOHF3EJYF47K5HMYUS)
-     ![alt text](https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/14.png?token=AHRBHFVVGZJN6OPQCLNBFNK5HMYV6)
+  ![alt text](https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/11.png?token=AHRBHFQR6TCWM4W4OOQI4JC5IUOXU)
+   ![alt text](https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/12.png?token=AHRBHFWLWNBXR3KHSIJLB3C5IUO24)
+    ![alt text](https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/13.png?token=AHRBHFWL6DWHIBG36UM3RUK5IUO4A)
+     ![alt text](https://raw.githubusercontent.com/dikshantsagar/Precog-Reddit-Flair-Detector/master/readmeimages/14.png?token=AHRBHFUU3V6WVCJTSUWJD3K5IUO5Y)
  
  ## Final Deploying 
   
